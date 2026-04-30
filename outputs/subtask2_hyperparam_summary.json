@@ -1,55 +1,55 @@
 {
-  "device": "cuda",
+  "device": "cpu",
   "images": 4,
-  "midas_model_load_s": 4.471760899999936,
-  "yolo_model_load_s": 0.2861081999981252,
+  "midas_model_load_s": 3.711634272000083,
+  "yolo_model_load_s": 0.07781275800152798,
   "depth_cached": true,
   "configs": {
     "base": {
       "images": 4,
-      "avg_detections": 4.25,
-      "avg_valid": 4.25,
+      "avg_detections": 5.75,
+      "avg_valid": 5.75,
       "avg_frac_valid": 1.0,
-      "avg_mean_distance_m": 35.42002582550049,
-      "avg_time_total_s": 0.4807407250000324,
-      "avg_time_yolo_s": 0.11869580000075075,
-      "avg_time_midas_s": 0.3556955999993079,
-      "avg_time_post_s": 0.00634932499997376
+      "avg_mean_distance_m": 32.91178035736084,
+      "avg_time_total_s": 3.5266624537489406,
+      "avg_time_yolo_s": 0.1546582414994191,
+      "avg_time_midas_s": 3.3688761162493392,
+      "avg_time_post_s": 0.0031280960001822677
     },
     "low_thresh": {
       "images": 4,
-      "avg_detections": 7.0,
-      "avg_valid": 7.0,
+      "avg_detections": 8.0,
+      "avg_valid": 8.0,
       "avg_frac_valid": 1.0,
-      "avg_mean_distance_m": 36.300522804260254,
-      "avg_time_total_s": 0.3829703249994054,
-      "avg_time_yolo_s": 0.023933924999255396,
-      "avg_time_midas_s": 0.3556955999993079,
-      "avg_time_post_s": 0.003340800000842137
+      "avg_mean_distance_m": 33.633288860321045,
+      "avg_time_total_s": 3.5098642735001704,
+      "avg_time_yolo_s": 0.13824645375098044,
+      "avg_time_midas_s": 3.3688761162493392,
+      "avg_time_post_s": 0.0027417034998507006
     },
     "high_thresh": {
       "images": 4,
-      "avg_detections": 2.25,
-      "avg_valid": 2.25,
+      "avg_detections": 2.5,
+      "avg_valid": 2.5,
       "avg_frac_valid": 1.0,
-      "avg_mean_distance_m": 31.80154323577881,
-      "avg_time_total_s": 0.40498529999968014,
-      "avg_time_yolo_s": 0.02483182499963732,
-      "avg_time_midas_s": 0.3556955999993079,
-      "avg_time_post_s": 0.02445787500073493
+      "avg_mean_distance_m": 27.84205198287964,
+      "avg_time_total_s": 3.504842946498684,
+      "avg_time_yolo_s": 0.13345616724927822,
+      "avg_time_midas_s": 3.3688761162493392,
+      "avg_time_post_s": 0.0025106630000664154
     },
     "tight_range": {
       "images": 4,
-      "avg_detections": 4.25,
-      "avg_valid": 4.25,
+      "avg_detections": 5.75,
+      "avg_valid": 5.75,
       "avg_frac_valid": 1.0,
-      "avg_mean_distance_m": 21.222261428833008,
-      "avg_time_total_s": 0.38215725000009115,
-      "avg_time_yolo_s": 0.023574175000248943,
-      "avg_time_midas_s": 0.3556955999993079,
-      "avg_time_post_s": 0.002887475000534323
+      "avg_mean_distance_m": 19.712193965911865,
+      "avg_time_total_s": 3.5030548454988093,
+      "avg_time_yolo_s": 0.13263246474980406,
+      "avg_time_midas_s": 3.3688761162493392,
+      "avg_time_post_s": 0.0015462644996659947
     }
   },
-  "csv": "C:\\Users\\Nifdi Guliyev\\Documents\\GitHub\\CVProject2\\outputs\\subtask2_hyperparam_metrics.csv",
-  "csv_summary": "C:\\Users\\Nifdi Guliyev\\Documents\\GitHub\\CVProject2\\outputs\\subtask2_hyperparam_summary.csv"
+  "csv": "/home/nifdi/Documents/GitHub/CVProject2/outputs/subtask2_hyperparam_metrics.csv",
+  "csv_summary": "/home/nifdi/Documents/GitHub/CVProject2/outputs/subtask2_hyperparam_summary.csv"
 }

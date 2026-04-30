@@ -10,7 +10,7 @@ import midas_utils
 
 LEFT_DIR = "images/left"
 OUTPUT_DIR = "outputs"
-DEVICE = "cuda"
+DEVICE = "cpu"
 YOLO_MODEL = "yolo26m.pt"
 SCORE_THRESH = 0.7
 NEAR_M = 1.0
