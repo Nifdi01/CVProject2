@@ -41,7 +41,7 @@ Run the comparison and hyperparameter experiments used to produce the summary fi
 
 ## Results
 
-The generated figures in `outputs/` show the main outputs of the project.
+The generated figures in outputs/ show the main outputs of the project.
 
 ### Subtask 1: MiDaS vs Stereo
 
@@ -49,7 +49,7 @@ The generated figures in `outputs/` show the main outputs of the project.
 
 This figure shows the left image, stereo disparity, MiDaS depth, and the absolute difference between the two depth estimates.
 
-The saved comparison summaries indicate that the best tested stereo configuration was `w7_d96_a9`, with the lowest average MAE and RMSE among the tested settings.
+The saved comparison summaries indicate that the best tested stereo configuration was w7_d96_a9, with the lowest average MAE and RMSE among the tested settings.
 
 ### Subtask 2: Object Distance Estimation
 
