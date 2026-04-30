@@ -1,0 +1,55 @@
+{
+  "device": "cuda",
+  "images": 4,
+  "midas_model_load_s": 4.471760899999936,
+  "yolo_model_load_s": 0.2861081999981252,
+  "depth_cached": true,
+  "configs": {
+    "base": {
+      "images": 4,
+      "avg_detections": 4.25,
+      "avg_valid": 4.25,
+      "avg_frac_valid": 1.0,
+      "avg_mean_distance_m": 35.42002582550049,
+      "avg_time_total_s": 0.4807407250000324,
+      "avg_time_yolo_s": 0.11869580000075075,
+      "avg_time_midas_s": 0.3556955999993079,
+      "avg_time_post_s": 0.00634932499997376
+    },
+    "low_thresh": {
+      "images": 4,
+      "avg_detections": 7.0,
+      "avg_valid": 7.0,
+      "avg_frac_valid": 1.0,
+      "avg_mean_distance_m": 36.300522804260254,
+      "avg_time_total_s": 0.3829703249994054,
+      "avg_time_yolo_s": 0.023933924999255396,
+      "avg_time_midas_s": 0.3556955999993079,
+      "avg_time_post_s": 0.003340800000842137
+    },
+    "high_thresh": {
+      "images": 4,
+      "avg_detections": 2.25,
+      "avg_valid": 2.25,
+      "avg_frac_valid": 1.0,
+      "avg_mean_distance_m": 31.80154323577881,
+      "avg_time_total_s": 0.40498529999968014,
+      "avg_time_yolo_s": 0.02483182499963732,
+      "avg_time_midas_s": 0.3556955999993079,
+      "avg_time_post_s": 0.02445787500073493
+    },
+    "tight_range": {
+      "images": 4,
+      "avg_detections": 4.25,
+      "avg_valid": 4.25,
+      "avg_frac_valid": 1.0,
+      "avg_mean_distance_m": 21.222261428833008,
+      "avg_time_total_s": 0.38215725000009115,
+      "avg_time_yolo_s": 0.023574175000248943,
+      "avg_time_midas_s": 0.3556955999993079,
+      "avg_time_post_s": 0.002887475000534323
+    }
+  },
+  "csv": "C:\\Users\\Nifdi Guliyev\\Documents\\GitHub\\CVProject2\\outputs\\subtask2_hyperparam_metrics.csv",
+  "csv_summary": "C:\\Users\\Nifdi Guliyev\\Documents\\GitHub\\CVProject2\\outputs\\subtask2_hyperparam_summary.csv"
+}
