@@ -180,6 +180,5 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-outputs/*.png
 images/
 yolo26m.pt

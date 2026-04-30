@@ -57,7 +57,7 @@ def main():
             output_path=str(output_path),
             device="cpu",  # use "cpu" if no GPU
             window_size=7,
-            max_disparity=256,
+            max_disparity=96,
             aggregate_window=49,
             show=False,
         )
